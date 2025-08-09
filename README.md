@@ -1,3 +1,6 @@
 The Arduino reads the analog value from the potentiometer (mapped to a range of 0 to 1023) and the desired position sent through the computer's serial input. It then calculates the error between these two values and uses a proportional control algorithm (with a constant factor called Kp) to adjust the motor's speed and direction. This algorithm basically converts the error into an output signal (between 0 and 255) sent to the L293D shield. The shield then translates this signal into a PWM signal that controls the motor accordingly.
 
 To keep track of what's happening, the Arduino displays the current and desired positions along with the error on the serial monitor. This lets you see how the motor behaves and even allows you to enter new desired positions to test the system's response in real-time.
+
+
+https://www.hackster.io/ivannestorovski1993/dc-motor-position-control-with-potentiometer-and-arduino-56ff77?f=1
